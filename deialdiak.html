@@ -8,6 +8,18 @@
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
             rel="stylesheet"
     >
+    <style>
+        table th, table td {
+            font-size: 0.9rem;
+            vertical-align: middle;
+            text-align: center;
+        }
+        table th:first-child,
+        table td:first-child {
+            text-align: left;
+            white-space: nowrap;
+        }
+    </style>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -29,19 +41,128 @@
     </div>
 </nav>
 <main class="container my-4">
-    <h1 class="h4 mb-3">Deialdiak</h1>
-    <p>
-        Hemen jarriko dira GrALaren deialdien egutegiak eta epeak.
+    <p class="mb-3">
+        <strong>Ondorengo deialdiak</strong> bai Ingenieritza Informatikoko graduak (IIG) baita
+        Adimen Artifizialeko graduak (AAG) dira.
     </p>
 
-    <ul class="list-group">
-        <li class="list-group-item">
-            <strong>Uda deialdia:</strong> data adibidea
-        </li>
-        <li class="list-group-item">
-            <strong>Udazken deialdia:</strong> data adibidea
-        </li>
-    </ul>
+    <!-- TAULA 1: IKASLEA -->
+    <div class="table-responsive mb-4">
+        <table class="table table-bordered align-middle">
+            <thead class="table-light">
+            <tr>
+                <th>IKASLEA</th>
+                <th>LEHENENGO DEIALDIA</th>
+                <th>BIGARREN DEIALDIA</th>
+                <th>HIRUGARREN DEIALDIA</th>
+                <th>LAUGARREN DEIALDIA</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Ikasleak GrALa <strong>GAURen matrikulatu</strong> (matrikula atalean) eta defentsa eskaera egin (GrAL atalean).</td>
+                <td>2024ko urriaren 17a arte</td>
+                <td>2025ko otsailaren 6a arte</td>
+                <td>2025ko ekainaren 16a arte</td>
+                <td>2025ko irailaren 4a arte</td>
+            </tr>
+            <tr>
+                <td>Lana <strong>ADDI plataforman digitalera igo</strong> eta <a href="mailto:dfgarela@ehu.eus">dfgarela@ehu.eus</a> helbidera bidali.</td>
+                <td>2024ko urriaren 27a arte</td>
+                <td>2025ko otsailaren 26a arte</td>
+                <td>2025ko ekainaren 22a arte</td>
+                <td>2025ko irailaren 14a arte</td>
+            </tr>
+            <tr>
+                <td>Lanen defentsak</td>
+                <td>2024ko azaroaren 4tik 8ra</td>
+                <td>2025ko otsailaren 24tik 28ra</td>
+                <td>2025ko ekainaren 30tik uztailaren 16ra</td>
+                <td>2025ko irailaren 22tik 26ra</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p class="small mb-4">
+        Ikasleak ikasturte bakoitzeko bi deialdi bakarrik erabili ahal izango ditu.
+    </p>
+
+    <!-- TAULA 2: ZUZENDARIA -->
+    <div class="table-responsive mb-4">
+        <table class="table table-bordered align-middle">
+            <thead class="table-light">
+            <tr>
+                <th>ZUZENDARIA</th>
+                <th>LEHENENGO DEIALDIA</th>
+                <th>BIGARREN DEIALDIA</th>
+                <th>HIRUGARREN DEIALDIA</th>
+                <th>LAUGARREN DEIALDIA</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    Zuzendaria informatuta egotean, eta GAURera igotzen den defentsarako
+                    <strong>dokumentuan epaimahaiko xehetasunak</strong> adierazi.
+                </td>
+                <td>2024ko urriaren 18a arte</td>
+                <td>2025ko otsailaren 7a arte</td>
+                <td>2025ko ekainaren 17a arte</td>
+                <td>2025ko irailaren 5a arte</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- TAULA 3: EPAIMAHAIA -->
+    <div class="table-responsive mb-4">
+        <table class="table table-bordered align-middle">
+            <thead class="table-light">
+            <tr>
+                <th>EPAIMAHAIA</th>
+                <th>LEHENENGO DEIALDIA</th>
+                <th>BIGARREN DEIALDIA</th>
+                <th>HIRUGARREN DEIALDIA</th>
+                <th>LAUGARREN DEIALDIA</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    Epaimahaiko idazkariak <strong>kalifikazioa jakitera eman eta akta</strong>
+                    <a href="mailto:dfgarela@ehu.eus">dfgarela@ehu.eus</a> helbidera bidaliko du.
+                </td>
+                <td>2024ko azaroaren 12</td>
+                <td>2025ko martxoaren 4</td>
+                <td>2025ko uztailaren 18</td>
+                <td>2025ko irailaren 30</td>
+            </tr>
+            <tr>
+                <td>Kalifikazioa aurkako erreklamazioak: hiru laneguneko epea.</td>
+                <td>2024ko azaroaren 18</td>
+                <td>2025ko martxoaren 10</td>
+                <td>2025ko uztailaren 23</td>
+                <td>2025ko urriaren 6</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <p class="mb-2">
+        Ingenieritza Informatikoko data eguneratuak lortu ditzakezu ondorengo estekan:
+        <a href="URL_IIG_GRAL" target="_blank" rel="noopener noreferrer">IIG GrAL</a>.
+    </p>
+    <p class="mb-2">
+        Adimen Artifizialeko data eguneratuak lortu ditzakezu ondorengo estekan:
+        <a href="URL_AAG_GRAL" target="_blank" rel="noopener noreferrer">AAG GrAL</a>.
+    </p>
+    <p class="mb-0">
+        Beste gradu bati buruzko informazioa bilatzen baduzu
+        <a href="URL_FAKULTATEA" target="_blank" rel="noopener noreferrer">
+            zure fakultateko webgunean
+        </a> aurkitu dezakezu.
+    </p>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
