@@ -81,9 +81,11 @@
             border-radius: 999px;           /* pastilla redondeada, opcional */
             padding-inline: 0.9rem;         /* un pelín más de aire */
         }
+
         .navbar-dark .navbar-toggler-icon {
             background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
         }
+
     </style>
 </head>
 <body>
@@ -107,43 +109,52 @@
     </div>
 </nav>
 <main class="container my-4">
-    <h1 class="h4 mb-3">Urratsak</h1>
+    <h1 class="h4 mb-3">About Us</h1>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Egileak</h2>
 
-    <p>
-        Ondoko <b>trebetasunak landuko eta egiaztatuko</b> dira GrALen garapenean:
-    </p>
+        <div class="row justify-content-center g-4">
 
-    <ol class="mb-4">
-        <li>
-            Lanan <b>aurreikusitako helburuak erdiestea</b>, hura garatzerakoan agertutako zailtasunak bere kabuz gaindituz.
-        </li>
-        <li>
-            Egin beharreko lana <b>planifikatzea eta kudeatzea</b>.
-        </li>
-        <li>
-            Lanari lotutako <b>memoria bat egitea, garatu bitartean bete behar izana</b>.
-        </li>
-        <li>
-            Egindako lana <b>jendaurrean azaltzea eta defendatzea</b>.
-        </li>
-    </ol>
+            <!-- 1 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="card p-3 text-center egileak-card">
+                    <h5 class="card-title">Aimar Esparza</h5>
+                    <p>Software Ingeniaritza ikaslea, EHUn.</p>
+                </div>
+            </div>
 
-    <hr class="my-4">
+            <!-- 2 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="card p-3 text-center egileak-card">
+                    <h5 class="card-title">Aimar Villegas</h5>
+                    <p>Software Ingeniaritza ikaslea, EHUn.</p>
+                </div>
+            </div>
+            <!-- 3 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="card p-3 text-center egileak-card">
+                    <h5 class="card-title">Asier Aldai</h5>
+                    <p>Software Ingeniaritza ikaslea, EHUn.</p>
+                </div>
+            </div>
+            <!-- 4 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="card p-3 text-center egileak-card">
+                    <h5 class="card-title">Iker Mayordomo</h5>
+                    <p>Software Ingeniaritza ikaslea, EHUn.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <p>Webgune honetan dagoen <b>informazioa EHU-tik aterata</b> dago.</p>
+        <p>Baliteke informazio hau ez egotea guztiz eguneratua, beraz, <b>ez hartu erabaki garrantzitsurik informazio honetan oinarritua,</b> PKE klaseko ariketa bat bakarrik ez baita.
+        </p>
+        <p><b>Informazio ofizial eguneratua</b> jasotzeko ondorengo webgunera joan: <a href=https://addi.ehu.es target="_blank" rel="noopener noreferrer">
+            Addi</a> edo <b>zure fakultateko webgunera</b>.
+        </p>
+    </div>
 
-    <p class="mb-3">
-        Memoria defendatzeko <b>prest egoterakoan</b> ikasleak
-        <a href="https://www.ehu.eus/documents/d/informatika-fakultatea/gaur_gral_eta_gih_ikaslegoa" target="_blank" rel="noopener noreferrer">
-            defentsa GAUR bitartez eskatu
-        </a> beharko du eta jarraian lanaren zuzendariak
-        eskaria berretsi. Defentsa baimena emateko zuzendariaren
-        <a href="https://www.ehu.eus/documents/d/informatika-fakultatea/iig_gii_gral_zuzendaritzaren_txostena_tfg_informe_direccion_2024" target="_blank" rel="noopener noreferrer">
-            defentsa-oniritzia dokumentua
-        </a> bete beharko du <em>epaimahia antolatzeko xehetasunak adieraziz</em>.
-    </p>
-
-    <p class="mb-0">
-        Ikasleari gomendatzen zaio <b>matrikula egitea defendatuko duen ikasturtean</b>.
-    </p>
 </main>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
