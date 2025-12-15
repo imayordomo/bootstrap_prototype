@@ -85,6 +85,14 @@
         .navbar-dark .navbar-toggler-icon {
             background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
         }
+        .link-externo::after {
+            content: "\f1c5";
+            font-family: "bootstrap-icons";
+            font-size: 0.85em;
+            margin-left: 0.15em;
+            vertical-align: text-top;
+            display: inline-block;
+        }
     </style>
 </head>
 <body>
@@ -128,9 +136,8 @@
 
     <p>
         <b>Bereziki informatikako fakultatekoak</b> errebisatu nahi badituzu, hemen duzu esteka zehatz bat:
-        <a href="https://addi.ehu.es" target="_blank" rel="noopener noreferrer">
+        <a href="https://addi.ehu.es" target="_blank" rel="noopener noreferrer" class="link-externo">
             ADDI Infor
-            <i class="bi bi-box-arrow-up-right ms-1"></i>
         </a>.
     </p>
 
