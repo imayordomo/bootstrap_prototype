@@ -96,6 +96,12 @@
             vertical-align: text-top;
             display: inline-block;
         }
+        a[target="_blank"] {
+            text-decoration: none;
+        }
+        a[target="_blank"] > .link-text {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -145,11 +151,11 @@
     <p class="mb-3">
         Memoria defendatzeko <b>prest egoterakoan</b> ikasleak
         <a href="https://www.ehu.eus/documents/d/informatika-fakultatea/gaur_gral_eta_gih_ikaslegoa" target="_blank" rel="noopener noreferrer">
-            defentsa GAUR bitartez eskatu
+            <span class="link-text">defentsa GAUR bitartez eskatu</span>
         </a> beharko du eta jarraian lanaren zuzendariak
         eskaria berretsi. Defentsa baimena emateko zuzendariaren
         <a href="https://www.ehu.eus/documents/d/informatika-fakultatea/iig_gii_gral_zuzendaritzaren_txostena_tfg_informe_direccion_2024" target="_blank" rel="noopener noreferrer">
-            defentsa-oniritzia dokumentua
+            <span class="link-text">defentsa-oniritzia dokumentua</span>
         </a> bete beharko du <em>epaimahia antolatzeko xehetasunak adieraziz</em>.
     </p>
 

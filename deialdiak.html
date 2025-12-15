@@ -108,7 +108,12 @@
             vertical-align: text-top;
             display: inline-block;
         }
-
+        a[target="_blank"] {
+            text-decoration: none;
+        }
+        a[target="_blank"] > .link-text {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -243,16 +248,20 @@
 
     <p class="mb-2">
         Ingenieritza Informatikoko data eguneratuak lortu ditzakezu ondorengo estekan:
-        <a href="https://www.ehu.eus/eu/web/informatika-fakultatea/ikas/ikasketak/gradu-amaierako-proiektua#GraduAmaierakoLana-5" target="_blank" rel="noopener noreferrer">IIG GrAL</a>.
+        <a href="https://www.ehu.eus/eu/web/informatika-fakultatea/ikas/ikasketak/gradu-amaierako-proiektua#GraduAmaierakoLana-5" target="_blank" rel="noopener noreferrer">
+            <span class="link-text">IIG GrAL</span>
+        </a>.
     </p>
     <p class="mb-2">
         Adimen Artifizialeko data eguneratuak lortu ditzakezu ondorengo estekan:
-        <a href="https://www.ehu.eus/eu/web/informatika-fakultatea/aa-gradu-amaierako-lana#GraduAmaierakoLana-5" target="_blank" rel="noopener noreferrer">AAG GrAL</a>.
+        <a href="https://www.ehu.eus/eu/web/informatika-fakultatea/aa-gradu-amaierako-lana#GraduAmaierakoLana-5" target="_blank" rel="noopener noreferrer">
+            <span class="link-text">AAG GrAL</span>
+        </a>.
     </p>
     <p class="mb-0">
         Beste gradu bati buruzko informazioa bilatzen baduzu
         <a href="URL_FAKULTATEA" target="_blank" rel="noopener noreferrer">
-            zure fakultateko webgunean
+            <span class="link-text">zure fakultateko webgunean</span>
         </a> aurkitu dezakezu.
     </p>
 </main>

@@ -97,7 +97,12 @@
             vertical-align: text-top;
             display: inline-block;
         }
-
+        a[target="_blank"] {
+            text-decoration: none;
+        }
+        a[target="_blank"] > .link-text {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -162,8 +167,10 @@
         <p>Webgune honetan dagoen <b>informazioa EHU-tik aterata</b> dago.</p>
         <p>Baliteke informazio hau ez egotea guztiz eguneratua, beraz, <b>ez hartu erabaki garrantzitsurik informazio honetan oinarritua,</b> PKE klaseko ariketa bat bakarrik ez baita.
         </p>
-        <p><b>Informazio ofizial eguneratua</b> jasotzeko ondorengo webgunera joan: <a href=https://addi.ehu.es target="_blank" rel="noopener noreferrer">
-            Addi</a> edo <b>zure fakultateko webgunera</b>.
+        <p><b>Informazio ofizial eguneratua</b> jasotzeko ondorengo webgunera joan:
+            <a href=https://addi.ehu.es target="_blank" rel="noopener noreferrer">
+                <span class="link-text">Addi</span>
+            </a> edo <b>zure fakultateko webgunera</b>.
         </p>
     </div>
 
